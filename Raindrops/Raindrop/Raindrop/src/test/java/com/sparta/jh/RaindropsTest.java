@@ -71,6 +71,13 @@ public class RaindropsTest {
     void returnNumber(){
         Assertions.assertEquals("34", Raindrops.plingPlangPlong(34));
     }
+    
+    @Test
+    @DisplayName("Entering a negative number is invalid, should return a String requesting positive number entry)
+    void negativeNumbersInvalid(){
+        Assertions.assertEquals("This is not a valid number - please enter a number greater than 0!", Raindrops.plingPlangPlong(-12));
+    }
+    
 
 
 
