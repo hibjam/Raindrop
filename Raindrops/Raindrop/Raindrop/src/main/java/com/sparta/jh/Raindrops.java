@@ -1,7 +1,8 @@
 package com.sparta.jh;
 
 public class Raindrops
-{ // realised the code was unecessarily long before, refactoring to make it cleaner
+{ // realised the code was unecessarily long before as when looking to see if it was completed I did not need the extra steps for appending the longer messages
+    // refactoring to make it cleaner
     public static String plingPlangPlong(int number) {
         StringBuilder stringResponse = new StringBuilder();
        
