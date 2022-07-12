@@ -14,7 +14,9 @@ public class Raindrops
         if (number % 7 == 0) {
             stringResponse.append("Plong");
         }
-        if (stringResponse.toString().equals("")) return "" + number;
+        if (number % 3 != 0 && number % 5 != 0 && number % 7 != 0){
+            stringResponse.append(String.valueOf(number));
+        }                    
         return stringResponse.toString();
     }
 }
