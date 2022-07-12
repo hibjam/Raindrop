@@ -8,5 +8,5 @@ This method can be used to see if a number is divisible by 3, 5, 7 or a combinat
 - Entering a number with a combination of factors will return a longer String i.e. 3 and 5 will return PlingPlang!
 - Entering a number that does not contain one of the factors will return the original number!
 
-It comes with a large amount of paramterised tests that can be used to check if the value inputted returns the correct String!
+It comes with a large amount of paramterised test, using both method and value sources to pass in multiple values - these will check if the value inputted returns the correct String!
 
