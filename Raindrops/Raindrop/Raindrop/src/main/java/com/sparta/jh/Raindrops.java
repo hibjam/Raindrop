@@ -1,6 +1,6 @@
 package com.sparta.jh;
 
-public class App 
+public class Raindrops
 {
     public static String plingPlangPlong(int number) {
         StringBuilder response = new StringBuilder();
